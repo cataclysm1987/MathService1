@@ -50,7 +50,7 @@ namespace MathServiceTestApp1
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error. Please enter a valid value. Error Message: " + ex.Message.);
+                MessageBox.Show("Error. Please enter a valid value. Error Message: " + ex.Message);
             }
 
             
