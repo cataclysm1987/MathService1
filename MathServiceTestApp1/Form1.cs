@@ -21,7 +21,7 @@ namespace MathServiceTestApp1
         private void btnCalc_Click(object sender, EventArgs e)
         {
             MathServiceClient msClient = new MathServiceClient();
-
+            
             try
             {
                 Int32 msNum1 = Convert.ToInt32(txtNum1.Text.Trim());
@@ -50,7 +50,7 @@ namespace MathServiceTestApp1
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error. Please enter a valid value.");
+                MessageBox.Show("Error. Please enter a valid value. Error Message: " + ex.Message.);
             }
 
             
