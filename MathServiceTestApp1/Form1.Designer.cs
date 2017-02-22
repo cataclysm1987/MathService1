@@ -113,6 +113,7 @@
             this.Controls.Add(this.txtNum2);
             this.Name = "frmMathService";
             this.Text = "Math Service";
+            this.Load += new System.EventHandler(this.frmMathService_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

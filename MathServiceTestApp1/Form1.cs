@@ -55,5 +55,10 @@ namespace MathServiceTestApp1
 
             
         }
+
+        private void frmMathService_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
